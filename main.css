@@ -91,6 +91,7 @@
   .leaderboard > div {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
     gap: 10px;
   }
