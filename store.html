@@ -14,16 +14,16 @@
             <img src = "picture.jpg" class = "photo" alt = "Profile Picture">
         </div>
 
-        <div style="display: flex; justify-content: space-between;">
+        <div class="sameLine">
             <h1>Student Store</h1>
             <h3>Your points: 0 pts.</h3>
         </div>
 
-        <div style="border-bottom: 5px solid;">
+        <div class="item">
             <h1>Apple</h1>
-            <div style="display: flex; justify-content: space-between;">
+            <div class="sameLine">
                 <p>Description</p>
-                <h3 style="text-align: right;">25 pts</h3>
+                <h3>25 pts</h3>
             </div>
         </div>
     </body>
@@ -34,4 +34,14 @@
             </div>
         </div>
     </footer>
+
+    <style>
+        .item {
+            border-bottom: 5px solid;
+        }
+        .sameLine {
+            display: flex; 
+            justify-content: space-between;
+        }
+    </style>
 </html>
