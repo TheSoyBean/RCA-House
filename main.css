@@ -95,3 +95,16 @@
     align-items: center;
     gap: 10px;
   }
+
+  /*profile.html CSS*/
+  .profileImg{
+    float: left;
+    margin-right: 15px;
+    height: 400px;
+  }
+
+  .crestImg{
+    float: right;
+    margin-left: 15px;
+    height: 300px;
+  }
