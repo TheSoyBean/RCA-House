@@ -8,9 +8,10 @@
     <body>
         <div class = "NavBar">
             <img src = "houseCrest.webp" class = "logo" alt ="House Crest Image">
-            <a href = "#">House Points</a>
-            <a href = "#">Leaderboard</a>
-            <a href = "#">Profile</a>
+            <a href = "Home.html">House Points</a>
+            <a href = "leaderboard.html">Leaderboard</a>
+            <a href = "store.html" class="active">Student Store</a>
+            <a href = "profile.html">Profile</a>
             <img src = "picture.jpg" class = "photo" alt = "Profile Picture">
         </div>
 
@@ -20,6 +21,21 @@
         </div>
 
         <div class="item">
+            <img src="apple.jpg" alt="Apple" class="itemImg">
+            <h1>Apple</h1>
+            <div class="sameLine">
+                <p class="textScroll">According to all known laws of aviation, there is no way a bee should be able to fly. 
+                    Its wings are too small to get its fat little body off the ground.
+                    The bee, of course, flies anyway because bees don't care what humans think is impossible.
+                    Yellow, black. Yellow, black. Yellow, black. Yellow, black.
+                    Ooh, black and yellow!
+                    Let's shake it up a little.</p>
+                <h3>25 pts</h3>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="apple.jpg" alt="Apple" class="itemImg">
             <h1>Apple</h1>
             <div class="sameLine">
                 <p>Description</p>
@@ -27,21 +43,26 @@
             </div>
         </div>
     </body>
-    <footer>
-        <div class="navbar">
-            <div class="foot">
-                <a href="store.html" class="active">Student Store</a>
-            </div>
-        </div>
-    </footer>
 
     <style>
         .item {
-            border-bottom: 5px solid;
+            border: 5px solid;
+            display: inline-block;
+            padding: 20px;
+            height: 500px;
         }
         .sameLine {
             display: flex; 
             justify-content: space-between;
+        }
+        .itemImg {
+            max-width: 90%;
+            max-height: 90%;
+        }
+        .textScroll {
+            height: 70px;
+            width: 300px;
+            overflow-y: scroll;
         }
     </style>
 </html>
