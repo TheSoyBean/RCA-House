@@ -108,7 +108,6 @@
     margin-left: 15px;
     height: 300px;
   }
-
   /*store.html*/
   .item {
     border: 5px solid;
@@ -152,7 +151,42 @@
   .houseTitle {
     padding: 20px;
   }
+    
+  /*AwardPoints.html CSS*/
+  .howManyWhatReason{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 
+  .whatHouse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .whatHouse img{
+    width: 50px;
+  }
+
+  .whoGetsPoints{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 20px;
+  }
+
+  .whoGetsPoints img{
+    height: 30px;
+  }
+
+  .whoGetsPoints > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    
   /*Random code for multiple pages*/
   .sameLine {
     display: flex; 
@@ -160,4 +194,4 @@
   }
   .textScroll {
     overflow-y: scroll;
-  }
+  
