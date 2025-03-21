@@ -108,3 +108,39 @@
     margin-left: 15px;
     height: 300px;
   }
+
+  /*AwardPoints.html CSS*/
+  .howManyWhatReason{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .whatHouse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .whatHouse img{
+    width: 50px;
+  }
+
+  .whoGetsPoints{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 20px;
+  }
+
+  .whoGetsPoints img{
+    height: 30px;
+  }
+
+  .whoGetsPoints > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+  }
