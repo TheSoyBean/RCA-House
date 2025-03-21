@@ -108,3 +108,56 @@
     margin-left: 15px;
     height: 300px;
   }
+
+  /*store.html*/
+  .item {
+    border: 5px solid;
+    display: inline-block;
+    padding: 20px;
+    height: 500px;
+    margin: 10px;
+  }
+
+  .itemImg {
+    max-width: 90%;
+    max-height: 90%;
+  }
+
+  .storeDesc {
+    height: 70px;
+    width: 300px;
+  }
+
+  /*teachHouses.html*/
+  .house {
+    border: 5px solid;
+    display: inline-block;
+    padding: 40px;
+    height: 300px;
+    margin: 10px;
+  }
+
+  .teachDesc {
+    height: 50%;
+    width: 60%;
+    padding: 20px;
+  }
+
+  .houseImg {
+    float: left;
+    width: 30%;
+    max-width: 300px;
+  }
+
+  .houseTitle {
+    padding: 20px;
+  }
+
+  /*Random code for multiple pages*/
+  .sameLine {
+    display: flex; 
+    justify-content: space-between;
+  }
+  .textScroll {
+    overflow-y: scroll;
+  }
