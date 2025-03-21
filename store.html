@@ -8,30 +8,39 @@
     <body>
         <div class = "NavBar">
             <img src = "houseCrest.webp" class = "logo" alt ="House Crest Image">
-            <a href = "#">House Points</a>
-            <a href = "#">Leaderboard</a>
-            <a href = "#">Profile</a>
+            <a href = "Home.html">House Points</a>
+            <a href = "leaderboard.html">Leaderboard</a>
+            <a href = "store.html" class="active">Student Store</a>
+            <a href = "profile.html">Profile</a>
             <img src = "picture.jpg" class = "photo" alt = "Profile Picture">
         </div>
 
-        <div style="display: flex; justify-content: space-between;">
+        <div class="sameLine">
             <h1>Student Store</h1>
             <h3>Your points: 0 pts.</h3>
         </div>
 
-        <div style="border-bottom: 5px solid;">
+        <div class="item">
+            <img src="apple.jpg" alt="Apple" class="itemImg">
             <h1>Apple</h1>
-            <div style="display: flex; justify-content: space-between;">
-                <p>Description</p>
-                <h3 style="text-align: right;">25 pts</h3>
+            <div class="sameLine">
+                <p class="textScroll storeDesc">According to all known laws of aviation, there is no way a bee should be able to fly. 
+                    Its wings are too small to get its fat little body off the ground.
+                    The bee, of course, flies anyway because bees don't care what humans think is impossible.
+                    Yellow, black. Yellow, black. Yellow, black. Yellow, black.
+                    Ooh, black and yellow!
+                    Let's shake it up a little.</p>
+                <h3>25 pts</h3>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="apple.jpg" alt="Apple" class="itemImg">
+            <h1>Apple</h1>
+            <div class="sameLine">
+                <p class="textScroll storeDesc">Description</p>
+                <h3>25 pts</h3>
             </div>
         </div>
     </body>
-    <footer>
-        <div class="navbar">
-            <div class="foot">
-                <a href="store.html" class="active">Student Store</a>
-            </div>
-        </div>
-    </footer>
 </html>

@@ -22,8 +22,8 @@ background-color: #ddd;
 color: black;
 }
 
-.navbar .foot a.active {
-background-color: #ffd000;
+.NavBar a.active {
+background-color: rgb(240, 184, 0);
 color: #616161;
 }
 
