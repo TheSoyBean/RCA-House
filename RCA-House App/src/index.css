@@ -1,0 +1,264 @@
+/*Home.html CSS*/
+.class-leaderboard{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: flex-end;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.class-leaderboard img{
+  align-items: center;
+  height: 40px;
+}
+
+.first {
+  background-color: gold;
+  width: 250px;
+  height: 500px;
+}
+
+.first img{
+  height: 70px;
+}
+
+.second {
+  background-color: silver;
+  width: 200px;
+  height: 450px;
+}
+
+.second img{
+  height: 60px;
+}
+
+.third {
+  background-color: rgb(206, 112, 5);
+  width: 150px;
+  height: 400px;
+}
+
+.third img{
+  height: 50px;
+}
+
+.fourth {
+  background-color: rgb(93, 223, 255);
+  width: 100px;
+  height: 350px;
+}
+
+.fifth {
+  background-color: rgb(126, 103, 255);
+  width: 100px;
+  height: 300px;
+}
+
+.sixth {
+  background-color: rgb(233, 82, 247);
+  width: 100px;
+  height: 250px;
+}
+
+.seventh {
+  background-color: rgb(255, 74, 74);
+  width: 100px;
+  height: 200px;
+}
+
+.eighth {
+  background-color: rgb(125, 255, 120);
+  width: 100px;
+  height: 150px;
+}
+/*leaderboard.html CSS*/
+.leaderboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 20px;
+}
+
+.leaderboard img {
+  height: 30px;
+}
+
+.leaderboard h1 {
+  font-size: 30px;
+}
+
+.leaderboard > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+/*profile.html CSS*/
+.profileImg{
+  float: left;
+  margin-right: 15px;
+  height: 400px;
+}
+
+.crestImg{
+  float: right;
+  margin-left: 15px;
+  height: 300px;
+}
+/*store.html*/
+.item {
+  border: 5px solid;
+  display: inline-block;
+  padding: 20px;
+  height: 500px;
+  margin: 10px;
+}
+
+.itemImg {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.storeDesc {
+  height: 70px;
+  width: 300px;
+}
+
+/*teachHouses.html*/
+.house {
+  border: 5px solid;
+  display: inline-block;
+  padding: 40px;
+  height: 300px;
+  margin: 10px;
+}
+
+.teachDesc {
+  height: 50%;
+  width: 60%;
+  padding: 20px;
+}
+
+.houseImg {
+  float: left;
+  width: 30%;
+  max-width: 300px;
+}
+
+.houseTitle {
+  padding: 20px;
+}
+  
+/*AwardPoints.html CSS*/
+.howManyWhatReason{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.whatHouse{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.whatHouse img{
+  width: 50px;
+}
+
+.whoGetsPoints{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 20px;
+}
+
+.whoGetsPoints img{
+  height: 30px;
+}
+
+.whoGetsPoints > div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+  
+/*Random code for multiple pages*/
+.sameLine {
+  display: flex; 
+  justify-content: space-between;
+}
+.textScroll {
+  overflow-y: scroll;
+}
+
+/*Footer Navbar*/
+.navbar .foot {
+  background-color: #ffd000;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  }
+  
+  .navbar .foot a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+  
+  .navbar .foot a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+  
+  .NavBar a.active {
+  background-color: rgb(240, 184, 0);
+  color: #616161;
+  }
+  
+  /*Header Navbar*/
+  .NavBar{
+  background-color: rgb(240, 184, 0);
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 20px;
+  }
+  
+  .NavBar a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  flex: 1 1 auto;
+  }
+  
+  .NavBar a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+  
+  .logo {
+  height: 40px;
+  margin-right: 20px;
+  }
+  
+  .photo {
+  height: 40px;
+  margin-left: 20px;
+  }
