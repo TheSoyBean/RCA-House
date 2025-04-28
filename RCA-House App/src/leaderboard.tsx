@@ -1,7 +1,13 @@
 import './App.css'
 import Navbar from './Navbar'
+import Entry from './leaderboardEntry'
+import data from './studentData.ts'
 
 export default function Leaderboard(){
+    const students = data.map((student) =>{
+        return <Entry {...student} />
+    })
+
     return(
         <>
     <head>
@@ -10,34 +16,7 @@ export default function Leaderboard(){
     <body>
         <Navbar />
         <div className = "leaderboard">
-            <div>
-                <h1>1st</h1>
-                <img src = "src/assets/picture.jpg" alt = "Profile Picture" />
-                <p>Profile Name</p>
-                <p>7,605 Pts.</p>
-                <img src = "src/assets/houseCrest.webp" alt = "house Crest Image" />
-            </div>
-            <div>
-                <h1>2nd</h1>
-                <img src = "src/assets/picture.jpg" alt = "Profile Picture" />
-                <p>Profile Name</p>
-                <p>7,605 Pts.</p>
-                <img src = "src/assets/houseCrest.webp" alt = "house Crest Image" />
-            </div>
-            <div>
-                <h1>3rd</h1>
-                <img src = "src/assets/picture.jpg" alt = "Profile Picture" />
-                <p>Profile Name</p>
-                <p>7,605 Pts.</p>
-                <img src = "src/assets/houseCrest.webp" alt = "house Crest Image" />
-            </div>
-            <div>
-                <h1>44th</h1>
-                <img src = "src/assets/picture.jpg" alt = "Profile Picture" />
-                <p>Profile Name</p>
-                <p>7,605 Pts.</p>
-                <img src = "src/assets/houseCrest.webp" alt = "house Crest Image" />
-            </div>
+            {students}
         </div>
     </body>
     </>
