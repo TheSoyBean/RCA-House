@@ -1,8 +1,14 @@
 import './App.css'
 import Navbar from './Navbar'
+import Entry from './leaderboardEntry.tsx'
+import data from './studentData.ts'
 
 export default function AwardPoints(){
-    <>
+const students = data.map((student) =>{
+    return <Entry {...student} />
+})
+
+    return (<>
     <head>
         <title>Student Store</title>
     </head>
@@ -63,31 +69,8 @@ export default function AwardPoints(){
         </div>
         <h1>Who gets the points?</h1>
         <div className = "whoGetsPoints">
-            <div>
-                <img src = "picture.jpg" alt = "Profile Picture" />
-                <p>Profile Name</p>
-                <p>7,605 Pts.</p>
-                <img src = "houseCrest.webp" alt = "house Crest Image" />
-            </div>
-            <div>
-                <img src = "picture.jpg" alt = "Profile Picture" />
-                <p>Profile Name</p>
-                <p>7,605 Pts.</p>
-                <img src = "houseCrest.webp" alt = "house Crest Image" />
-            </div>
-            <div>
-                <img src = "picture.jpg" alt = "Profile Picture" />
-                <p>Profile Name</p>
-                <p>7,605 Pts.</p>
-                <img src = "houseCrest.webp" alt = "house Crest Image" />
-            </div>
-            <div>
-                <img src = "picture.jpg" alt = "Profile Picture" />
-                <p>Profile Name</p>
-                <p>7,605 Pts.</p>
-                <img src = "houseCrest.webp" alt = "house Crest Image" />
-            </div>
+            { students }
         </div>
     </body>
-    </>
+    </>)
 }
